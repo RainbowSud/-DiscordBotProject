@@ -44,6 +44,3 @@ async def reload(ctx):
             client.load_extension(f'cogs.{filename[:-3]}')
     await ctx.send("All cogs reloaded")
 
-
-
-client.run("NzkxMDcyMjczMTQxNTk2MTkw.X-J1dw.3PzMmzyYfAhm-_hqRfQbCvD7bYg")
